@@ -25,3 +25,5 @@ If you happen to want to have access to it all at times in terminal, here's how 
 ## WIP stuff:
 - Errors and checking
 - extra info
+
+Any contribution is highly appreciated!
