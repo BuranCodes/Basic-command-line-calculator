@@ -1,2 +1,2 @@
-# Basic-command-line-calculator
-A command line program that takes your calculation argument consisting of 2 variables and one char and returns the result in terminal.
+# Basic command line calculator
+A simple command line program that receives one argument in that format: `variable, symbol, variable` as input and returns the result of the calculated argument.
