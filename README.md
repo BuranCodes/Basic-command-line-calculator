@@ -18,5 +18,10 @@ Here's a list of possible operations:
 - Modulo (%)
 - Power (^)
 
+## Implementing as command
+If you happen to want to have access to it all at times in terminal, here's how you can do it in different OSes:
+- Windows: Add the directory where the executable currently is in, to PATH. Edit environment variables --> Edit Path in System variables --> New... --> paste path --> OK, finish. Try `cmdcalc 10^10`!
+
 ## WIP stuff:
 - Errors and checking
+- extra info
