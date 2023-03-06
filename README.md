@@ -2,7 +2,7 @@
 A simple command line program that receives one argument in that order: `variable, symbol, variable` as input without spaces and returns the result of the calculated argument.
 
 ## Intended use
-Clone repo to your directory of any choice, then use `gcc -o cmdcalc main.c calc.c` and you're pretty much set (though I will work on cmake or something later).
+Clone repo to your directory of any choice, then use `gcc -o cmdcalc main.c calc.c` in said directory and you're pretty much set (though I will work on cmake or something later).
 
 Then depending on the system when you're in the same directory as the executable:
 - Windows: `.\cmdcalc`
