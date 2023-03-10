@@ -1,32 +1,32 @@
 #include <stdio.h>
 #include <math.h>
 
-int calculation(char* argv[]) {
-    double Var1, Var2; char Symbol;
-    sscanf(argv[1], "%lf%c%lf", &Var1, &Symbol, &Var2);
-    // error checking should be here
+int calculation(char* argv[])
+{
+        double var1, var2; char symbol;
+        sscanf(argv[1], "%lf%c%lf", &var1, &symbol, &var2);
+        // error checking should be here
 
 
-    switch (Symbol)
-    {
-    case '+':
-        printf("Result: %lf\n", (Var1+Var2));
+switch (symbol) {
+case '+':
+        printf("Result: %lf\n", (var1+var2));
         break;
-    case '-':
-        printf("Result: %lf\n", (Var1-Var2));
+case '-':
+        printf("Result: %lf\n", (var1-var2));
         break;
-    case '*':
-        printf("Result: %lf\n", (Var1*Var2));
+case '*':
+        printf("Result: %lf\n", (var1*var2));
         break;
-    case '/':
-        printf("Result: %lf\n", (Var1/Var2));
+case '/':
+        printf("Result: %lf\n", (var1/var2));
         break;
-    case '%':
-        printf("Result: %lf\n", (fmod(Var1, Var2)));
+case '%':
+        printf("Result: %lf\n", (fmod(var1, var2)));
         break;
-    case '^':
-        printf("Result: %lf\n", (pow(Var1, Var2)));
+case '^':
+        printf("Result: %lf\n", (pow(var1, var2)));
         break;
-    }
-    return 0;
+}
+        return 0;
 }
