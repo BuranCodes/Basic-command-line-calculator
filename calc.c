@@ -27,6 +27,8 @@ case '%':
 case '^':
         printf("Result: %lf\n", (pow(var1, var2)));
         break;
+default:
+        return 1;
 }
         return 0;
 }
