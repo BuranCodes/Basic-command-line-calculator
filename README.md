@@ -20,7 +20,7 @@ Here's a list of possible arithmetic operators:
 
 The program will return an error message if the input symbol does not match any of them above.
 
-## Implementing as command
+## Implementing as a command
 If you happen to want to have access to it all at times in terminal, here's how you can do it in different OSes:
 - Windows: Add the directory where the executable currently is in, to PATH. Edit environment variables --> Edit Path in System variables --> New... --> copy paste path where the executable is --> OK, finish. Try `cmdcalc 10^10`!
 -Linux: Add the directory where the executable currently is in, to PATH. In terminal: `echo "export PATH=$PATH:/path/to/dir" >> /home/<USERNAME>/.bashrc` and then `source ~/.bashrc`. If your directories contain whitespaces, enclose the entire directory in double quotes! Things might be different for each distro when it comes to adding PATH, so please refer to the StackOverflow page and decide which method is appropriate for you: https://stackoverflow.com/questions/14637979/how-to-permanently-set-path-on-linux-unix
