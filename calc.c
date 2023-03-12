@@ -4,8 +4,8 @@
 int calculation(char* argv[])
 {
         double var1, var2; char symbol;
-        sscanf(argv[1], "%lf%c%lf", &var1, &symbol, &var2);
-        // error checking should be here
+        if(sscanf(argv[1], "%lf%c%lf", &var1, &symbol, &var2) < 3)
+		return 1;
 
 
 switch (symbol) {
